@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+.nav-bar {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: #000;
+    padding: 10px;
+    position: sticky;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    flex-wrap: wrap;
+    background-color: white;
+    
+
+    
+} */
+.nav-bar {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: #000;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    flex-wrap: wrap;
+    background-color: white; /* important */
+    transition: box-shadow 0.1s ease;
+    /* box-shadow hata diya - ab JS ke through control hoga */
+}
+
+/* Yeh scroll hone ke baad lagta hai */
+.nav-bar.scrolled {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.logo ol img {
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.gap {
+    width: 500px;
+}
+
+.options {
+    margin-top: 27px;
+    opacity: 1;
+    cursor: pointer;
+}
+.options:hover {
+    text-decoration: underline;
+    text-decoration-color: #1877f2;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 4px;
+
+}
+
+h1 {
+    width: 525px;
+    height: 225px;
+    color: #0866FF;
+    font-size: 80px;
+    font-family: Facebook Sans, Helvetica, Helvetica Neue, Arial, sans-serif;
+    line-height: 85px;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+p {
+    color: #545555;
+    width: 525px;
+    height: 52px;
+    font-size: 21px;
+    margin-left: 150px;
+    margin-top: 2px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.form-box input {
+    width: 300px;
+    height: 32px;
+    background-color: #0000000a;
+    padding: 9px 16px;
+    margin: 0px 0px 8px;
+    border-radius: 6px;
+    border: #545555;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.form-box input:focus {
+    box-shadow: 0px 0px 1px 1px rgb(22, 111, 229);
+}
+
+.form-box button {
+    color: white;
+    background-color: #0866FF;
+    margin-left: 150px;
+    font-size: 19px;
+    width: 98.5px;
+    height: 43.6px;
+    border-radius: 30px;
+    padding: 2px 20px 0px;
+    border: #0866FF;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background: #053c96;
+}
+
+input::placeholder {
+  color: #333; /* dark gray or you can use #000 for black */
+  opacity: 1;  /* ensure it's fully visible */
+}
+
+.form-box a {
+    text-decoration: none;
+    color: #216FDB;
+    font: 17px;
+    font-weight: 550;
+    margin-left: 20px;
+    font-style: bold;
+}
+
+.form-box a:hover {
+    text-decoration: underline;
+    color: #216FDB;
+}
+
+.checkbox {
+    margin-left: 150px;
+    color: #65686C;
+    font: 13px;
+
+}
+
+.checkbox input[type="checkbox"] {
+    width: 19px;
+    height: 17px;
+    margin-bottom: 30px;
+}
+
+.checkbox span {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.checkbox input[type="checkbox"], span {
+    margin-left: 5px;
+}
+
+.copy img {
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.micro {
+    height: 44px;
+    width: 149.6px;
+    cursor: pointer;
+}
+
+
+.photo {
+    margin-left: 800px;
+}
+
+.footer ol {
+    list-style: none;
+    display: flex;
+
+}
+
+.image {
+    margin-bottom: 300px;
+}
+.information {
+    list-style: none;
+    display: flex;
+    margin-left: 100px;
+    font-size: 13px;
+    font-family: Facebook Sans, Helvetica, Helvetica Neue, Arial, sans-serif;
+}
+
+
+.id {
+    color: #1C1E21;
+}
+
+.next {
+    width: 30px;
+}
+
+.information ol img {
+    margin-top: none;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.link {
+    cursor: pointer;
+}
+
+#English {
+    color: #65686C;
+}
+
+#English:hover {
+    text-decoration: underline;
+    color: #000;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+#meta {
+    display: flex;
+    text-align: center;
+}

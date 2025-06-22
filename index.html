@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messenger</title>
+    <link rel="icon" href="me_logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="logo">
+            <ol><img src="me_logo.png" alt="Messenger_Log"></ol>
+        </div>
+        <div class="gap"></div>
+        <ol class="options">Feautres▼</ol>
+        <ol class="options">Privacy and safety</ol>
+        <ol class="options">Desktop app</ol>
+        <ol class="options">For developers</ol>
+        <ol class="options">Help Centre</ol>
+    </div>
+    <h1>A place for meaningful conversions</h1>
+    <p>Messenger helps you connect with your Facebook friends and family, build your community and deepen your
+        interests.</p>
+
+    <div class="form-box">
+        <input type="text" name="email" id="email" placeholder="Email address or phone number"> <br>
+        <input type="password" name="password" id="password" placeholder="Password"> <br>
+        <button>Log In</button>
+        <a href="#">Forgotten your password?</a> <br>
+    </div>
+    <div class="checkbox">
+        <input type="checkbox">
+        <span>Keep me signed in</span>
+    </div>
+    <div class="image">
+    <span class="copy">
+        <img src="ios.svg" alt="Apple">
+    </span>
+    <span class="micro">
+        <img src="microsoft.png" alt="">
+    </span>
+    </div>
+    <div class="information">
+        <ol id="meta">&copy; Meta 2025</ol>
+        <div class="gap"></div>
+        <ol class="link" >Privacy Policy</ol>
+        <ol class="link" >Cookie Policy</ol>
+        <ol class="link" >Terms</ol>
+        <ol class="link" id="English">Enlgish (UK)▼</ol>
+        <div class="next"></div>
+        <ol><img src="meta.png" alt="Meta" width="140px" height="47px"></ol>
+    </div>
+<script>
+  window.addEventListener("scroll", function () {
+    const navbar = document.querySelector(".nav-bar");
+    if (window.scrollY > 0) {
+      navbar.classList.add("scrolled");
+    } else {
+      navbar.classList.remove("scrolled");
+    }
+  });
+</script>
+</body>
+</html>
+
+</body>
+
+</html>
